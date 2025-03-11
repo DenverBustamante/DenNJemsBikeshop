@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Den N Jems Bikeshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#home" id="home-link">Home</a>
+        <a href="#gallery" id="gallery-link">Gallery</a>
+        <a href="#services" id="services-link">Services</a>
+        <a href="#login" id="login-link">Login</a>
+        <a href="#" id="logout-link" style="display: none;">Logout</a>
+    </nav>
+    
+    <section id="home" style="display: block;">
+        <h1>Den And Jems Bikeshop</h1>
+        <p>Providing high-quality bikes and professional repair services. Also available: Door-to-Door services (8 AM - 4 PM). Located near Lawaan National High School.</p>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Check out our latest bikes and prices.</p>
+        <img src="images/road.avif" alt="Road Bike">
+        <p>Road Bike - ₱28,000</p>
+        <img src="images/asd.jpg" alt="Mountain Bike">
+        <p>Mountain Bike - ₱42,000</p>
+        <img src="images/MountainPeakExplore4000thumb.webp" alt="Premium Mountain Bike">
+        <p>Premium Mountain Bike - ₱50,400</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer top-notch services for bike enthusiasts.</p>
+        <ul>
+            <li>Bike Repair - ₱2,800</li>
+            <li>Bike Delivery - ₱1,680</li>
+            <li>All bike prices available in-store.</li>
+        </ul>
+    </section>
+    
+    <section id="login">
+        <h2>Login</h2>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" placeholder="Enter your username"><br>
+        
+        <label for="password">Password</label><br>
+        <input type="password" id="password" placeholder="Enter your password">
+        <br>
+        <p id="error-msg" class="error">Invalid credentials. Try again.</p>
+        <button id="login-btn">Login</button>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
